@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="16">
+	<com.4d>
+		<interface>
+			<user can_change_password="true" default_user="0" print_progress="false"/>
+			<shortcuts>
+				<add_subform command="false" key_code="0" shift="false"/>
+				<cancel_input_form key_code="0"/>
+				<accept_input_form key_code="0"/>
+                                                                                                      			</shortcuts>
+			<developper design_acces="0"/>
+                                                                            		</interface>
+		<web>
+			<standalone_server>
+				<configuration ip_address="0" listening_address="::" port_number="8080">
+					<hosts>
+						<host home_page="index.html" html_root="./DossierWeb/" id="0" name="Default"/>
+                                                          					</hosts>
+                                                				</configuration>
+				<options>
+					<web_processes timeout_for_inactives="18000"/>
+					<cache cache_max_size="524288" use_4d_web_cache="false"/>
+					<web_passwords generic_web_user="1"/>
+                                                                                                                                				</options>
+				<log tokens="">
+					<backup daily="" hourly="" mode="0" monthly="" size="0" weekly=""/>
+                                                				</log>
+				<misc/>
+                                                                                                      			</standalone_server>
+			<remote>
+				<misc/>
+				<options>
+					<web_processes timeout_for_inactives="18000"/>
+					<cache cache_max_size="524288" use_4d_web_cache="false"/>
+					<web_passwords generic_web_user="1"/>
+                                                                                                                                				</options>
+				<configuration allow_ssl="false" ip_address="0"/>
+				<webservices>
+					<server allow_requests="false"/>
+                                                				</webservices>
+                                                                                                                                      			</remote>
+                                                    		</web>
+		<compiler>
+			<typage default_for_button="1" default_for_numeric="1"/>
+			<options AMD64_support="true" compilation_path="3" fat_binary="true"/>
+                                                    		</compiler>
+		<sql>
+			<access data_read_only="0" data_read_write="0" full="1"/>
+                            		</sql>
+		<server>
+			<network>
+				<options publication_name="4D Progress" use_legacy_network_layer="true"/>
+                                      			</network>
+                            		</server>
+		<general startup_environnement="0">
+			<font font_name="Lucida Grande"/>
+			<mover always_display_dialog="2"/>
+          		</general>
+		<database>
+			<cache size_fixed="32" size_maximum="100" size_reserved="128"/>
+			<misc use_ast_interpreter="false"/>
+		</database>
+		<deployment>
+			<options/>
+		</deployment>
+                                                                                          	</com.4d>
+        </preferences>

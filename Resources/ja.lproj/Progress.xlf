@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- 
+   Translation file for 4D products.
+   Copyright (C) 2012-2013 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd"><xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" product-version="v14" source-language="en-US" target-language="ja">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+      </header>
+      <body>
+         <group resname="Groupe 1">
+            <trans-unit id="1" resname="MethodDoesNotExist">
+               <source>The "{MethodName}" method does not exist in the host database or is not shared.</source>
+               <target>"{MethodName}"メソッドはホストデータベースに存在しないか、共有されていません。</target>
+            </trans-unit>
+            <trans-unit id="2" resname="IncorrectNumberOfParameters">
+               <source>The number of parameters is incorrect.</source>
+               <target>引数の数が正しくありません。</target>
+            </trans-unit>
+            <trans-unit id="3" resname="UnknownProgressID">
+               <source>Incorrect progress identifier ({id}).</source>
+               <target>無効な参照番号（{id}）がProgessコンポーネントに渡されました。</target>
+            </trans-unit>
+         </group>
+         <group resname="Groupe 2">
+            <trans-unit id="1" resname="BtnStop">
+               <source>Stop</source>
+               <target>停止</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

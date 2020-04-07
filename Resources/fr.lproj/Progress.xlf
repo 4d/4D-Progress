@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+   Translation file for 4D products.
+   Copyright (C) 2012-2013 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" product-version="v14" source-language="en-US" target-language="fr">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+      </header>
+      <body>
+         <group resname="Groupe 1">
+            <trans-unit id="1" resname="MethodDoesNotExist">
+               <source>The &quot;{MethodName}&quot; method does not exist in the host database or is not shared.</source>
+               <target>La méthode &quot;{MethodName}&quot; n&apos;existe pas dans la base hôte ou n&apos;est pas partagée.</target>
+            </trans-unit>
+            <trans-unit id="2" resname="IncorrectNumberOfParameters">
+               <source>The number of parameters is incorrect.</source>
+               <target>Le nombre de paramètres est incorrect.</target>
+            </trans-unit>
+            <trans-unit id="3" resname="UnknownProgressID">
+               <source>Incorrect progress identifier ({id}).</source>
+               <target>Identifiant de progression inconnu ({id}).</target>
+            </trans-unit>
+         </group>
+         <group resname="Groupe 2">
+            <trans-unit id="1" resname="BtnStop">
+               <source>Stop</source>
+               <target>Stop</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

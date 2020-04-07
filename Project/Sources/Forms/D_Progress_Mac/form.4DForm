@@ -1,0 +1,287 @@
+﻿{
+	"destination": "detailScreen",
+	"windowMinWidth": 400,
+	"windowMaxWidth": 32000,
+	"windowMinHeight": 62,
+	"windowMaxHeight": 62,
+	"width": 400,
+	"height": 68,
+	"markerBody": 68,
+	"markerBreak": 68,
+	"markerFooter": 68,
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt",
+		"scale": 25600
+	},
+	"pages": [
+		{
+			"objects": {
+				"Picture3": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 400,
+					"height": 68,
+					"sizingX": "grow",
+					"picture": "/RESOURCES/Images/Background_Mac.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Line1": {
+					"type": "line",
+					"top": -10,
+					"left": 365,
+					"height": 139,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"sizingY": "move",
+					"width": 0,
+					"startPoint": "topLeft"
+				},
+				"Line2": {
+					"type": "line",
+					"top": -10,
+					"left": 385,
+					"height": 139,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"sizingY": "move",
+					"width": 0,
+					"startPoint": "topLeft"
+				},
+				"ThermoProgress": {
+					"type": "progress",
+					"top": 29,
+					"left": 60,
+					"width": 325,
+					"height": 15,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"continuousExecution": false,
+					"min": 0,
+					"max": 100,
+					"graduationStep": 1,
+					"class": "Bouton",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Message1": {
+					"type": "input",
+					"top": 7,
+					"left": 60,
+					"width": 325,
+					"height": 18,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"class": "Progress_Title",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Message2": {
+					"type": "input",
+					"top": 46,
+					"left": 60,
+					"width": 325,
+					"height": 14,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"class": "Progress_Message",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Icon": {
+					"type": "input",
+					"top": 10,
+					"left": 10,
+					"width": 40,
+					"height": 40,
+					"sizingY": "move",
+					"dataSourceTypeHint": "picture",
+					"class": "Bouton",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "proportionalCenter",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"SepLine": {
+					"type": "line",
+					"top": 67,
+					"left": 0,
+					"width": 400,
+					"visibility": "hidden",
+					"sizingX": "grow",
+					"sizingY": "move",
+					"stroke": "#555555",
+					"height": 0,
+					"startPoint": "topLeft"
+				},
+				"Group Box": {
+					"type": "groupBox",
+					"top": 169,
+					"left": 0,
+					"width": 331,
+					"height": 111,
+					"sizingY": "move",
+					"class": "Progress_Message",
+					"text": "These variables are \"memory\""
+				},
+				"ProgressValue": {
+					"type": "input",
+					"top": 192,
+					"left": 17,
+					"width": 181,
+					"height": 18,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"stroke": "#EE0000",
+					"class": "Progress_Message",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"CallBack": {
+					"type": "input",
+					"top": 214,
+					"left": 17,
+					"width": 181,
+					"height": 18,
+					"sizingY": "move",
+					"stroke": "#EE0000",
+					"class": "Progress_Message",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"ProgressID": {
+					"type": "input",
+					"top": 238,
+					"left": 17,
+					"width": 181,
+					"height": 18,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"stroke": "#EE0000",
+					"class": "Progress_Message",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"CancelAllow": {
+					"type": "input",
+					"top": 257,
+					"left": 18,
+					"width": 181,
+					"height": 18,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"stroke": "#EE0000",
+					"class": "Progress_Message",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"StopButton": {
+					"type": "button",
+					"top": 28,
+					"left": 370,
+					"width": 20,
+					"height": 20,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "vStopButton",
+					"class": "Bouton",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Close.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/StopButton.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"method": "method.4dm"
+}

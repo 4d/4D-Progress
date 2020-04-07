@@ -1,0 +1,268 @@
+﻿{
+	"destination": "detailScreen",
+	"shared": true,
+	"windowSizingY": "fixed",
+	"windowMaxWidth": 32000,
+	"width": 400,
+	"height": 120,
+	"markerBody": 120,
+	"markerBreak": 120,
+	"markerFooter": 120,
+	"events": [
+		"onLoad",
+		"onOutsideCall"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Picture3": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 400,
+					"height": 120,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/Background_Win.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Group Box": {
+					"type": "groupBox",
+					"top": 169,
+					"left": 0,
+					"width": 331,
+					"height": 111,
+					"sizingY": "move",
+					"class": "Progress_Message",
+					"text": "These variables are \"memory\""
+				},
+				"Message1": {
+					"type": "input",
+					"top": 11,
+					"left": 20,
+					"width": 280,
+					"height": 24,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"stroke": "#FFFFFF",
+					"class": "Progress_Title",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Message2": {
+					"type": "input",
+					"top": 50,
+					"left": 20,
+					"width": 360,
+					"height": 29,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"class": "Progress_Message",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Icon": {
+					"type": "input",
+					"top": 0,
+					"left": 310,
+					"width": 80,
+					"height": 40,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSourceTypeHint": "picture",
+					"class": "Bouton",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "proportionalCenter",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"StopButton": {
+					"type": "button",
+					"top": 86,
+					"left": 307,
+					"width": 73,
+					"height": 23,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "vStopButton",
+					"text": ":xliff:BtnStop",
+					"class": "Bouton",
+					"focusable": false,
+					"method": "ObjectMethods/StopButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line1": {
+					"type": "line",
+					"top": -10,
+					"left": 290,
+					"height": 159,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"sizingY": "move"
+				},
+				"Line2": {
+					"type": "line",
+					"top": -10,
+					"left": 385,
+					"height": 159,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"sizingY": "move"
+				},
+				"ThermoProgress": {
+					"type": "progress",
+					"top": 89,
+					"left": 20,
+					"width": 365,
+					"height": 16,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"continuousExecution": false,
+					"min": 0,
+					"max": 100,
+					"graduationStep": 10,
+					"step": 10,
+					"class": "Bouton",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"ProgressValue": {
+					"type": "input",
+					"top": 192,
+					"left": 17,
+					"width": 111,
+					"height": 11,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"stroke": "#EE0000",
+					"class": "Progress_Message",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"CallBack": {
+					"type": "input",
+					"top": 214,
+					"left": 17,
+					"width": 111,
+					"height": 11,
+					"sizingY": "move",
+					"stroke": "#EE0000",
+					"class": "Progress_Message",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"ProgressID": {
+					"type": "input",
+					"top": 238,
+					"left": 17,
+					"width": 111,
+					"height": 11,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"stroke": "#EE0000",
+					"class": "Progress_Message",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"CancelAllow": {
+					"type": "input",
+					"top": 257,
+					"left": 18,
+					"width": 111,
+					"height": 11,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"stroke": "#EE0000",
+					"class": "Progress_Message",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

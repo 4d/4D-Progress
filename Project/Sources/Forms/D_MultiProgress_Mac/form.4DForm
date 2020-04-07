@@ -1,0 +1,103 @@
+﻿{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"width": 400,
+	"height": 68,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onOutsideCall"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Subform1": {
+					"type": "subform",
+					"top": 0,
+					"left": 0,
+					"width": 400,
+					"height": 68,
+					"dataSource": "sub1",
+					"dataSourceTypeHint": "text",
+					"detailForm": "D_Progress_Mac",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				},
+				"Bouton2": {
+					"type": "button",
+					"top": 69,
+					"left": 542,
+					"width": 248,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"shortcutKey": "[Enter]",
+					"text": "trap enter (do nothing)",
+					"class": "Bouton"
+				},
+				"Bouton3": {
+					"type": "button",
+					"top": 109,
+					"left": 541,
+					"width": 248,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"shortcutKey": "[Return]",
+					"text": "trap return (do nothing)",
+					"class": "Bouton"
+				},
+				"Bouton1": {
+					"type": "button",
+					"top": 24,
+					"left": 541,
+					"width": 248,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"shortcutKey": "[Esc]",
+					"text": "trap Esc (do nothing)",
+					"class": "Bouton"
+				}
+			},
+			"entryOrder": [
+				"Subform1",
+				"Bouton2",
+				"Bouton3",
+				"Bouton1"
+			]
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}
