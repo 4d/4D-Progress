@@ -43,11 +43,13 @@ Else
 		
 	Else 
 		
+		
+		
 		$SubformWidth:=400
 		$SubformHeight:=68
 		
 		$x1:=(Screen width:C187/2)-($SubformWidth/2)
-		$y1:=80
+		$y1:=80+Tool bar height:C1016
 		$x2:=$x1+$SubformWidth
 		$y2:=$y1+$SubformHeight
 		
