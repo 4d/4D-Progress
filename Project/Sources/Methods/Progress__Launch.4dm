@@ -19,7 +19,7 @@ C_LONGINT:C283(<>VerticalCenter)
 If (Count parameters:C259=0)
 	
 	If (<>PS_Progress=0)
-		<>PS_Progress:=New process:C317("Progress__Launch"; 128000; "$ProgressBar"; 0)  //ACI0100926    (128000 instead of 64000)
+		<>PS_Progress:=New process:C317("Progress__Launch"; 128000; "$ProgressBar"; 0)  //ACI0100926  (128000 instead of 64000)
 		DELAY PROCESS:C323(Current process:C322; 15)  // 1/4 de seconde
 	End if 
 	
@@ -53,7 +53,10 @@ Else
 		$x2:=$x1+$SubformWidth
 		$y2:=$y1+$SubformHeight
 		
-		<>ProgressWindow:=Open window:C153($x1; $y1; $x2; $y2; Plain fixed size window:K34:6)  //   ACI0098693 +_ o _ Compositing mode)
+		//<>ProgressWindow:=Open window($x1;$y1;$x2;$y2;Plain fixed size window)  //   ACI0098693 +_ o _ Compositing mode)
+		
+		//<>ProgressWindow:=Open window($x1;$y1;$x2;$y2;Palette window*(-1))
+		<>ProgressWindow:=Open window:C153($x1; $y1; $x2; $y2; Plain fixed size window:K34:6*(-1))
 		<>VerticalCenter:=$x1
 		
 		DIALOG:C40("D_Multiprogress_Mac")
