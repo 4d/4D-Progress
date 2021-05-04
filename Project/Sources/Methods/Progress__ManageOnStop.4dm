@@ -34,7 +34,8 @@ If (Not:C34(Is nil pointer:C315($PtrCallback)))  // this should neve happend
 			// A new process is created that will call the callback method (and will die when done)
 			// this allows to free the progress process so it can catch external calls
 			
-			$ps:=New process:C317("Progress__CallCallBack"; 128000; "$CallCallback"; $CallbackMethod; $ProgressID)  //ACI0100926   (128000 instead of 32000)
+			$ps:=New process:C317("Progress__CallCallBack"; 128000; "$CallCallback"; $CallbackMethod; $ProgressID)  //ACI0100926  (128000 instead of 64000)
+			
 		Else 
 			// no callback or already deleted, do nothing!
 		End if 
