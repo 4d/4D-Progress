@@ -36,7 +36,7 @@ Else
 		$x2:=$x1+$SubformWidth
 		$y2:=$y1+$SubformHeight
 		
-		<>ProgressWindow:=Open window:C153($x1; $y1; $x2; $y2; Plain fixed size window:K34:6)
+		<>ProgressWindow:=Open window:C153($x1; $y1; $x2; $y2; Plain form window:K39:10+Form has no menu bar:K39:18)
 		<>VerticalCenter:=($y1+$y2)/2
 		
 		DIALOG:C40("D_Multiprogress_Win")

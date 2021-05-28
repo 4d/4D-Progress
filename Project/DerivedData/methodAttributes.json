@@ -7,6 +7,12 @@
 				"shared": true
 			}
 		},
+		"Progress SET WINDOW TITLE": {
+			"timeStamp": "2021-05-28T23:35:32.548Z",
+			"attributes": {
+				"shared": true
+			}
+		},
 		"Progress New": {
 			"timeStamp": "2021-05-28T23:32:52.293Z",
 			"attributes": {
@@ -185,7 +191,7 @@
 			}
 		},
 		"Progress__Launch": {
-			"timeStamp": "2021-05-28T23:32:52.295Z",
+			"timeStamp": "2021-05-28T23:42:33.615Z",
 			"attributes": {
 				"invisible": true
 			}
@@ -254,12 +260,6 @@
 			"timeStamp": "2021-05-28T23:32:52.296Z",
 			"attributes": {
 				"invisible": true
-			}
-		},
-		"Progress SET WINDOW TITLE": {
-			"timeStamp": "2021-05-28T23:34:38.534Z",
-			"attributes": {
-				"shared": true
 			}
 		}
 	}

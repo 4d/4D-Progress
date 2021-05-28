@@ -2,6 +2,22 @@
 	"editors": [
 		{
 			"type": "explorer"
+		},
+		{
+			"type": "method",
+			"id": 2147483619,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "Progress__Launch"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483646,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "Progress New"
+			}
 		}
 	]
 }
