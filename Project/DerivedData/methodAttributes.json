@@ -1,0 +1,266 @@
+﻿{
+	"methods": {
+		"Progress Get On Stop Method": {
+			"timeStamp": "2021-05-28T23:32:52.293Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress New": {
+			"timeStamp": "2021-05-28T23:32:52.293Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress__Semaphore_OFF": {
+			"timeStamp": "2021-05-28T23:32:52.296Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Progress QUIT": {
+			"timeStamp": "2021-05-28T23:32:52.293Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress SET ON STOP METHOD": {
+			"timeStamp": "2021-05-28T23:32:52.294Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress__ManageOnStop": {
+			"timeStamp": "2021-05-28T23:32:52.295Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Progress SET BUTTON TITLE": {
+			"timeStamp": "2021-05-28T23:32:52.294Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress Get On Error Method": {
+			"timeStamp": "2021-05-28T23:32:52.293Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress Stopped": {
+			"timeStamp": "2021-05-28T23:32:52.295Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress__ManageMethodsError": {
+			"timeStamp": "2021-05-28T23:32:52.295Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Progress SET MESSAGE": {
+			"timeStamp": "2021-05-28T23:32:52.294Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress SET TITLE": {
+			"timeStamp": "2021-05-28T23:32:52.295Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress__CallCallBack": {
+			"timeStamp": "2021-05-28T23:32:52.295Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Progress SET PROGRESS": {
+			"timeStamp": "2021-05-28T23:32:52.294Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress Get Button Title": {
+			"timeStamp": "2021-05-28T23:32:52.292Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress SET ON ERROR METHOD": {
+			"timeStamp": "2021-05-28T23:32:52.294Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress Get Progress": {
+			"timeStamp": "2021-05-28T23:32:52.293Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress__Semaphore_ON": {
+			"timeStamp": "2021-05-28T23:32:52.296Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Progress__UpdateSizes": {
+			"timeStamp": "2021-05-28T23:32:52.296Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Progress Get Message": {
+			"timeStamp": "2021-05-28T23:32:52.293Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress Get Icon": {
+			"timeStamp": "2021-05-28T23:32:52.293Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress__UpdateDynVar": {
+			"timeStamp": "2021-05-28T23:32:52.296Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"4D_License": {
+			"timeStamp": "2021-05-28T23:32:52.292Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Progress Get Title": {
+			"timeStamp": "2021-05-28T23:32:52.293Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Compiler_Variables_Inter": {
+			"timeStamp": "2021-05-28T23:32:52.292Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Progress__OnExternalCall": {
+			"timeStamp": "2021-05-28T23:32:52.296Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Compiler_Variables": {
+			"timeStamp": "2021-05-28T23:32:52.292Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Progress__Compiler": {
+			"timeStamp": "2021-05-28T23:32:52.295Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Progress__Launch": {
+			"timeStamp": "2021-05-28T23:32:52.295Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Compiler_Methods": {
+			"timeStamp": "2021-05-28T23:32:52.292Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Progress SET ICON": {
+			"timeStamp": "2021-05-28T23:32:52.294Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress SET FONTS": {
+			"timeStamp": "2021-05-28T23:32:52.294Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress SET BUTTON ENABLED": {
+			"timeStamp": "2021-05-28T23:32:52.293Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress__UpdateFonts": {
+			"timeStamp": "2021-05-28T23:32:52.296Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Progress SET FONT SIZES": {
+			"timeStamp": "2021-05-28T23:32:52.294Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress Get Button Enabled": {
+			"timeStamp": "2021-05-28T23:32:52.292Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Compiler_Arrays_Inter": {
+			"timeStamp": "2021-05-28T23:32:52.292Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Progress SET WINDOW VISIBLE": {
+			"timeStamp": "2021-05-28T23:32:52.295Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Progress__TrapError": {
+			"timeStamp": "2021-05-28T23:32:52.296Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Progress SET WINDOW TITLE": {
+			"timeStamp": "2021-05-28T23:34:38.534Z",
+			"attributes": {
+				"shared": true
+			}
+		}
+	}
+}

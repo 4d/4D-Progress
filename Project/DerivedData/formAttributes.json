@@ -1,0 +1,20 @@
+﻿{
+	"forms": {
+		"D_Progress_Mac": {
+			"timeStamp": "2021-05-28T23:32:52.291Z",
+			"destination": "detailScreen"
+		},
+		"D_MultiProgress_Win": {
+			"timeStamp": "2021-05-28T23:32:52.290Z",
+			"destination": "detailScreen"
+		},
+		"D_Progress_Win": {
+			"timeStamp": "2021-05-28T23:32:52.291Z",
+			"destination": "detailScreen",
+			"shared": true
+		},
+		"D_MultiProgress_Mac": {
+			"timeStamp": "2021-05-28T23:32:52.290Z"
+		}
+	}
+}
