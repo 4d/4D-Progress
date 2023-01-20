@@ -6,7 +6,7 @@ C_BOOLEAN:C305($3)  //if passed, forces the window to be the frontmost window
 C_LONGINT:C283($ErrorID)  //Error code
 C_LONGINT:C283($ProgressID)  // progress code
 
-C_LONGINT:C283($p;$CountParam)
+C_LONGINT:C283($p; $CountParam)
 
 C_TEXT:C284($Title)
 C_REAL:C285($Progress)
@@ -22,10 +22,10 @@ If ($CountParam>=2)
 		$FrontMost:=$3
 	End if 
 	
-	Progress__Semaphore_ON   //*************
+	Progress__Semaphore_ON  //*************
 	
 	
-	$p:=Find in array:C230(<>_ProgressID;$ProgressID)
+	$p:=Find in array:C230(<>_ProgressID; $ProgressID)
 	If ($p>0)
 		<>_ProgressMessage{$p}:=$2
 		<>_ProgressUpdated{$p}:=True:C214
@@ -33,7 +33,7 @@ If ($CountParam>=2)
 		$ErrorID:=1  //Bad ID
 	End if 
 	
-	Progress__Semaphore_OFF   //*************
+	Progress__Semaphore_OFF  //*************
 	
 	If ($ErrorID=0)
 		POST OUTSIDE CALL:C329(<>PS_Progress)
@@ -46,6 +46,6 @@ Else
 	$ErrorID:=2  // wrong number of param
 End if 
 
-Progress__ManageMethodsError ($ErrorID;$ProgressID)
+Progress__ManageMethodsError($ErrorID; $ProgressID)
 
 

@@ -6,7 +6,7 @@ C_BOOLEAN:C305($3)  // If passed then the progress window becomes the foreground
 C_LONGINT:C283($ErrorID)  //Error code
 C_LONGINT:C283($ProgressID)  // progress code
 
-C_LONGINT:C283($p;$CountParam)
+C_LONGINT:C283($p; $CountParam)
 
 C_TEXT:C284($Title)
 C_REAL:C285($Progress)
@@ -22,9 +22,9 @@ If ($CountParam>=2)
 		$FrontMost:=$3
 	End if 
 	
-	Progress__Semaphore_ON   //*************
+	Progress__Semaphore_ON  //*************
 	
-	$p:=Find in array:C230(<>_ProgressID;$ProgressID)
+	$p:=Find in array:C230(<>_ProgressID; $ProgressID)
 	If ($p>0)
 		<>_ProgressCancelAllow{$p}:=$CancelAllow
 		<>_ProgressUpdated{$p}:=True:C214
@@ -32,7 +32,7 @@ If ($CountParam>=2)
 		$ErrorID:=1  //bad ID
 	End if 
 	
-	Progress__Semaphore_OFF   //*************
+	Progress__Semaphore_OFF  //*************
 	
 	If ($ErrorID=0)
 		POST OUTSIDE CALL:C329(<>PS_Progress)
@@ -45,6 +45,6 @@ Else
 	$ErrorID:=2  // wrong number or parameters
 End if 
 
-Progress__ManageMethodsError ($ErrorID;$ProgressID)
+Progress__ManageMethodsError($ErrorID; $ProgressID)
 
 

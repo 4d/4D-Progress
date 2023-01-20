@@ -30,5 +30,5 @@ Else
 	$ErrorID:=2  // wrong number or parameters
 End if 
 
-Progress__ManageMethodsError ($ErrorID;0)
+Progress__ManageMethodsError($ErrorID; 0)
 

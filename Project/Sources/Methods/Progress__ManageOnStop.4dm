@@ -18,7 +18,7 @@ If (Not:C34(Is nil pointer:C315($PtrCallback)))  // this should neve happend
 		$CallbackMethod:=$PtrCallback->
 		$ProgressID:=$PtrProgressID->
 		
-		Progress__Semaphore_ON  //************* 
+		Progress__Semaphore_ON  //*************
 		
 		$p:=Find in array:C230(<>_ProgressID; $ProgressID)
 		If ($p>0)
