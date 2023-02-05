@@ -2,10 +2,9 @@
 
 > Progress Get On Error Method -> Function result
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     | Parameter |     | Type |     |     |     | Description |     |
-|     | Function result |     | Text |     | ➡️ |     | Name of method called in case of error (if specified) |     |
+| Parameter |     | Type |     |     |     | Description |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Function result |     | Text |     | ➡️ |     | Name of method called in case of error (if specified) |     |
 
 ## Description
 

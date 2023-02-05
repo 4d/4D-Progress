@@ -2,11 +2,10 @@
 
 > Progress Get Icon ( id ) -> Function result
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     | Parameter |     | Type |     |     |     | Description |     |
-|     | id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-|     | Function result |     | Picture |     | ➡️ |     | Progress bar icon |     |
+| Parameter |     | Type |     |     |     | Description |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
+| Function result |     | Picture |     | ➡️ |     | Progress bar icon |     |
 
 ## Description
 

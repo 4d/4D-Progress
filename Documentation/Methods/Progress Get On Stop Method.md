@@ -2,11 +2,10 @@
 
 > Progress Get On Stop Method ( id ) -> Function result
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     | Parameter |     | Type |     |     |     | Description |     |
-|     | id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-|     | Function result |     | Text |     | ➡️ |     | Name of method called when Stop button is clicked (if specified) |     |
+| Parameter |     | Type |     |     |     | Description |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
+| Function result |     | Text |     | ➡️ |     | Name of method called when Stop button is clicked (if specified) |     |
 
 ## Description
 

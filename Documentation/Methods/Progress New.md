@@ -2,10 +2,9 @@
 
 > Progress New -> Function result
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     | Parameter |     | Type |     |     |     | Description |     |
-|     | Function result |     | Longint |     | ➡️ |     | ID of new progress bar |     |
+| Parameter |     | Type |     |     |     | Description |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Function result |     | Longint |     | ➡️ |     | ID of new progress bar |     |
 
 ## Description
 

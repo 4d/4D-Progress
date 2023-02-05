@@ -2,11 +2,10 @@
 
 > Progress SET BUTTON ENABLED ( id ; button )
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     | Parameter |     | Type |     |     |     | Description |     |
-|     | id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-|     | button |     | Boolean |     | ⬅️ |     | True = Show, False = Hide |     |
+| Parameter |     | Type |     |     |     | Description |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
+| button |     | Boolean |     | ⬅️ |     | True = Show, False = Hide |     |
 
 ## Description
 

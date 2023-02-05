@@ -2,11 +2,10 @@
 
 > Progress Get Title ( id ) -> Function result
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     | Parameter |     | Type |     |     |     | Description |     |
-|     | id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-|     | Function result |     | Text |     | ➡️ |     | Progress bar title |     |
+| Parameter |     | Type |     |     |     | Description |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
+| Function result |     | Text |     | ➡️ |     | Progress bar title |     |
 
 ## Description
 

@@ -2,11 +2,10 @@
 
 > Progress Get Progress ( id ) -> Function result
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     | Parameter |     | Type |     |     |     | Description |     |
-|     | id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-|     | Function result |     | Real |     | ➡️ |     | Progress bar value |     |
+| Parameter |     | Type |     |     |     | Description |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
+| Function result |     | Real |     | ➡️ |     | Progress bar value |     |
 
 ## Description
 

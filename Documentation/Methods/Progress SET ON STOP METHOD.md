@@ -2,11 +2,10 @@
 
 > Progress SET ON STOP METHOD ( id ; methodName )
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     | Parameter |     | Type |     |     |     | Description |     |
-|     | id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-|     | methodName |     | Text |     | ⬅️ |     | Name of stop method |     |
+| Parameter |     | Type |     |     |     | Description |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
+| methodName |     | Text |     | ⬅️ |     | Name of stop method |     |
 
 ## Description
 

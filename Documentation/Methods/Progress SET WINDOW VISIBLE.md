@@ -2,13 +2,12 @@
 
 > Progress SET WINDOW VISIBLE ( visible {; horPos ; vertPos {; foreground}} )
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     | Parameter |     | Type |     |     |     | Description |     |
-|     | visible |     | Boolean |     | ⬅️ |     | True = Show, False = Hide |     |
-|     | horPos |     | Longint |     | ⬅️ |     | Left coordinate of window  <br>-1 = No change |     |
-|     | vertPos |     | Longint |     | ⬅️ |     | Top coordinate of window  <br>-1 = No change |     |
-|     | foreground |     | Boolean |     | ⬅️ |     | Show progress bar in foreground |     |
+| Parameter |     | Type |     |     |     | Description |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| visible |     | Boolean |     | ⬅️ |     | True = Show, False = Hide |     |
+| horPos |     | Longint |     | ⬅️ |     | Left coordinate of window  <br>-1 = No change |     |
+| vertPos |     | Longint |     | ⬅️ |     | Top coordinate of window  <br>-1 = No change |     |
+| foreground |     | Boolean |     | ⬅️ |     | Show progress bar in foreground |     |
 
 ## Description
 
@@ -26,7 +25,7 @@ When you do not want to modify these coordinates (for instance, if you want to u
 
 Pass True in `foreground`when you want to force the progress window to the foreground of the application.
 
-#### Example 1  
+|### Example 1  
 
 Place the progress bar window 50 pixels from the left edge and 100 pixels from the top edge:
 
@@ -34,7 +33,7 @@ Place the progress bar window 50 pixels from the left edge and 100 pixels from t
  Progress SET WINDOW VISIBLE(True;50;100)
 ```
 
-#### Example 2  
+|### Example 2  
 
 Hide the progress bar window:
 
@@ -42,7 +41,7 @@ Hide the progress bar window:
  Progress SET WINDOW VISIBLE(False)
 ```
 
-#### Example 3  
+|### Example 3  
 
 Display the progress bar window and move it to the foreground without changing its position:
 

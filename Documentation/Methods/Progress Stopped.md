@@ -2,11 +2,10 @@
 
 > Progress Stopped ( id ) -> Function result
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     | Parameter |     | Type |     |     |     | Description |     |
-|     | id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-|     | Function result |     | Boolean |     | ➡️ |     | True = User clicked the Stop button |     |
+| Parameter |     | Type |     |     |     | Description |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
+| Function result |     | Boolean |     | ➡️ |     | True = User clicked the Stop button |     |
 
 ## Description
 
@@ -14,7 +13,7 @@ The **Progress Stopped** method returns True when a user clicks on the **Stop** 
 
 You must call this method to test whether the user clicked the **Stop** button. The button does not trigger an event itself.
 
-#### Example  
+|### Example  
 
 Example of progress bar on a loop:
 

@@ -2,11 +2,10 @@
 
 > Progress Get Button Enabled ( id ) -> Function result
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     | Parameter |     | Type |     |     |     | Description |     |
-|     | id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-|     | Function result |     | Boolean |     | ➡️ |     | True = Stop button displayed; otherwise, False |     |
+| Parameter |     | Type |     |     |     | Description |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
+| Function result |     | Boolean |     | ➡️ |     | True = Stop button displayed; otherwise, False |     |
 
 ## Description
 

@@ -2,14 +2,13 @@
 
 > Progress SET TITLE ( id ; title {; progress {; message {; foreground}}} )
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     | Parameter |     | Type |     |     |     | Description |     |
-|     | id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-|     | title |     | Text |     | ⬅️ |     | Title of progress bar |     |
-|     | progress |     | Real |     | ⬅️ |     | Value of progress (\[0...1\] or -1) |     |
-|     | message |     | Text |     | ⬅️ |     | Message of progress bar |     |
-|     | foreground |     | Boolean |     | ⬅️ |     | Show progress bar in foreground |     |
+| Parameter |     | Type |     |     |     | Description |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
+| title |     | Text |     | ⬅️ |     | Title of progress bar |     |
+| progress |     | Real |     | ⬅️ |     | Value of progress (\[0...1\] or -1) |     |
+| message |     | Text |     | ⬅️ |     | Message of progress bar |     |
+| foreground |     | Boolean |     | ⬅️ |     | Show progress bar in foreground |     |
 
 ## Description
 
@@ -25,7 +24,7 @@ In `message`, you pass additional text to display under the main title (Windows)
 
 Pass True in `foreground`when you want to force the progress window to the foreground of the application.
 
-#### Example  
+|### Example  
 
 Creating a simple progress bar window:
 

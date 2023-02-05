@@ -2,12 +2,11 @@
 
 > Progress SET MESSAGE ( id ; message {; foreground} )
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     | Parameter |     | Type |     |     |     | Description |     |
-|     | id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-|     | message |     | Text |     | ⬅️ |     | Message of progress bar |     |
-|     | foreground |     | Boolean |     | ⬅️ |     | Show progress bar in foreground |     |
+| Parameter |     | Type |     |     |     | Description |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
+| message |     | Text |     | ⬅️ |     | Message of progress bar |     |
+| foreground |     | Boolean |     | ⬅️ |     | Show progress bar in foreground |     |
 
 ## Description
 
