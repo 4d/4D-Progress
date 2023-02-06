@@ -13,4 +13,4 @@ The **Progress Get Title** method returns the main title of the progress bar des
 
 ## See also
 
-[Progress SET TITLE](Progress%20SET%20TITLE%20.md)
+[Progress SET TITLE](Progress%20SET%20TITLE.md)
