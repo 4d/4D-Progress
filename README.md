@@ -7,11 +7,11 @@ Each progress bar is assigned an ID that is generated automatically by the Progr
 ## Commands
 
 - [Progress Get Button Enabled](Documentation/Methods/Progress%20Get%20Button%20Enabled.md)
-- [Progress Get Button Title](Documentation/Methods/Progress%20Get%20Button%Title.md)
+- [Progress Get Button Title](Documentation/Methods/Progress%20Get%20Button%20Title.md)
 - [Progress Get Icon](Documentation/Methods/Progress%20Get%20Icon.md)
 - [Progress Get Message](Documentation/Methods/Progress%20Get%20Message.md)
-- [Progress Get On Error Method](Documentation/Methods/Progress%20Get%20Error.md)
-- [Progress Get On Stop Method](Documentation/Methods/Progress%20Get%20Stop.md)
+- [Progress Get On Error Method](Documentation/Methods/Progress%20Get%20Error%20Method.md)
+- [Progress Get On Stop Method](Documentation/Methods/Progress%20Get%20Stop%20Method.md)
 - [Progress Get Progress](Documentation/Methods/Progress%20Get%20Progress.md)
 - [Progress Get Title](Documentation/Methods/Progress%20Get%20Title.md)
 - [Progress New](Documentation/Methods/Progress%20New.md)
