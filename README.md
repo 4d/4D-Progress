@@ -6,32 +6,28 @@ Each progress bar is assigned an ID that is generated automatically by the Progr
 
 ## Commands
 
-```
-Progress Get Button Enabled
-Progress Get Button Title
-Progress Get Icon
-Progress Get Message
-Progress Get On Error Method
-Progress Get On Stop Method
-Progress Get Progress
-Progress Get Title
-Progress New
-Progress QUIT
-Progress SET BUTTON ENABLED
-Progress SET BUTTON TITLE
-Progress SET FONT SIZES
-Progress SET FONTS
-Progress SET ICON
-Progress SET MESSAGE
-Progress SET ON ERROR METHOD
-Progress SET ON STOP METHOD
-Progress SET PROGRESS
-Progress SET TITLE
-Progress SET WINDOW VISIBLE
-Progress Stopped
-```
-
-For more detail, read the [4D Progress documentation](https://doc.4d.com/4Dv18/4D/18/4D-Progress.100-4683152.en.html)
+- [Progress Get Button Enabled](Documentation/Methods/Progress%20Get%20Button%20Enabled.md)
+- [Progress Get Button Title](Documentation/Methods/Progress%20Get%20Button%20Title.md)
+- [Progress Get Icon](Documentation/Methods/Progress%20Get%20Icon.md)
+- [Progress Get Message](Documentation/Methods/Progress%20Get%20Message.md)
+- [Progress Get On Error Method](Documentation/Methods/Progress%20Get%20Error%20Method.md)
+- [Progress Get On Stop Method](Documentation/Methods/Progress%20Get%20Stop%20Method.md)
+- [Progress Get Progress](Documentation/Methods/Progress%20Get%20Progress.md)
+- [Progress Get Title](Documentation/Methods/Progress%20Get%20Title.md)
+- [Progress New](Documentation/Methods/Progress%20New.md)
+- [Progress QUIT](Documentation/Methods/Progress%20QUIT.md)
+- [Progress SET BUTTON ENABLED](Documentation/Methods/Progress%20SET%20BUTTON%20ENABLED.md)
+- [Progress SET BUTTON TITLE](Documentation/Methods/Progress%20SET%20BUTTON%20TITLE.md)
+- [Progress SET FONT SIZES](Documentation/Methods/Progress%20SET%20FONT%20SIZES.md)
+- [Progress SET FONTS](Documentation/Methods/Progress%20SET%20FONTS.md)
+- [Progress SET ICON](Documentation/Methods/Progress%20SET%20ICON.md)
+- [Progress SET MESSAGE](Documentation/Methods/Progress%20SET%20MESSAGE.md)
+- [Progress SET ON ERROR METHOD](Documentation/Methods/Progress%20SET%20ON%20ERROR%20METHOD.md)
+- [Progress SET ON STOP METHOD](Documentation/Methods/Progress%20SET%20ON%20STOP%20METHOD.md)
+- [Progress SET PROGRESS](Documentation/Methods/Progress%20SET%20PROGRESS.md)
+- [Progress SET TITLE](Documentation/Methods/Progress%20SET%20TITLE.md)
+- [Progress SET WINDOW VISIBLE](Documentation/Methods/Progress%20SET%20WINDOW%20VISIBLE.md)
+- [Progress Stopped](Documentation/Methods/Progress%20Stopped.md)
 
 ## How to use
 
