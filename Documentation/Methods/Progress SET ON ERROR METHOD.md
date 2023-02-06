@@ -2,10 +2,9 @@
 
 > Progress SET ON ERROR METHOD ( methodName )
 
-| Parameter |     | Type |     |     |     | Description |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| methodName |     | Text |     | ⬅️ |     | Name of error method |     |
-
+| Parameter | Type |     | Description |
+| --- | --- | --- | --- |
+| methodName | Text | ⬅️ | Name of error method |
 ## Description
 
 The **Progress SET ON ERROR METHOD** method designates a method to execute in the event of an error when using progress bars (for example id unknown, incorrect number of parameters, etc.).

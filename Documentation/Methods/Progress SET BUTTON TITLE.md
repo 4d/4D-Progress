@@ -2,11 +2,10 @@
 
 > Progress SET BUTTON TITLE ( id ; title )
 
-| Parameter |     | Type |     |     |     | Description |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-| title |     | Text |     | ⬅️ |     | Title of Stop button (Windows) |     |
-
+| Parameter | Type |     | Description |
+| --- | --- | --- | --- |
+| id  | Longint | ⬅️ | ID of progress bar |
+| title | Text | ⬅️ | Title of Stop button (Windows) |
 ## Description
 
 **Note**: This method can only be used under Windows. Under Mac OS, stop buttons do not have titles.

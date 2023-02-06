@@ -2,10 +2,9 @@
 
 > Progress QUIT ( id )
 
-| Parameter |     | Type |     |     |     | Description |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-
+| Parameter | Type |     | Description |
+| --- | --- | --- | --- |
+| id  | Longint | ⬅️ | ID of progress bar |
 ## Description
 
 The **Progress QUIT** method closes the progress bar referenced by the `id` parameter.

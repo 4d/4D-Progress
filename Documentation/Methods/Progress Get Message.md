@@ -2,11 +2,10 @@
 
 > Progress Get Message ( id ) -> Function result
 
-| Parameter |     | Type |     |     |     | Description |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-| Function result |     | Text |     | ➡️ |     | Progress bar message |     |
-
+| Parameter | Type |     | Description |
+| --- | --- | --- | --- |
+| id  | Longint | ⬅️ | ID of progress bar |
+| Function result | Text | ➡️ | Progress bar message |
 ## Description
 
 The **Progress Get Message** method returns the message of the progress bar designated by the `id` parameter.

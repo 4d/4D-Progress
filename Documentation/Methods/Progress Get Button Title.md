@@ -2,11 +2,10 @@
 
 > Progress Get Button Title ( id ) -> Function result
 
-| Parameter |     | Type |     |     |     | Description |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-| Function result |     | Text |     | ➡️ |     | Title of Stop button |     |
-
+| Parameter | Type |     | Description |
+| --- | --- | --- | --- |
+| id  | Longint | ⬅️ | ID of progress bar |
+| Function result | Text | ➡️ | Title of Stop button |
 ## Description
 
 **Note**: This method can only be used under Windows. Under Mac OS, stop buttons do not have titles.

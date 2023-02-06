@@ -2,10 +2,9 @@
 
 > Progress New -> Function result
 
-| Parameter |     | Type |     |     |     | Description |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Function result |     | Longint |     | ➡️ |     | ID of new progress bar |     |
-
+| Parameter | Type |     | Description |
+| --- | --- | --- | --- |
+| Function result | Longint | ➡️ | ID of new progress bar |
 ## Description
 
 The **Progress New** method creates a new progress bar and returns its ID number. This number is unique throughout the duration of the progress bar but can be reused subsequently.

@@ -2,11 +2,10 @@
 
 > Progress Get On Stop Method ( id ) -> Function result
 
-| Parameter |     | Type |     |     |     | Description |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-| Function result |     | Text |     | ➡️ |     | Name of method called when Stop button is clicked (if specified) |     |
-
+| Parameter | Type |     | Description |
+| --- | --- | --- | --- |
+| id  | Longint | ⬅️ | ID of progress bar |
+| Function result | Text | ➡️ | Name of method called when Stop button is clicked (if specified) |
 ## Description
 
 The **Progress Get On Stop Method** method returns the name of the project method of the host database that is called when a user clicks on the **Stop** button of the progress bar designated by the `id` parameter.

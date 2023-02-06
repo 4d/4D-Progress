@@ -2,11 +2,10 @@
 
 > Progress SET BUTTON ENABLED ( id ; button )
 
-| Parameter |     | Type |     |     |     | Description |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-| button |     | Boolean |     | ⬅️ |     | True = Show, False = Hide |     |
-
+| Parameter | Type |     | Description |
+| --- | --- | --- | --- |
+| id  | Longint | ⬅️ | ID of progress bar |
+| button | Boolean | ⬅️ | True = Show, False = Hide |
 ## Description
 
 The **Progress SET BUTTON ENABLED** method adds a **Stop** button to the progress bar designated by the `id` parameter.

@@ -2,12 +2,11 @@
 
 > Progress SET FONT SIZES ( sizeTitles {; sizeMessages {; sizeButtons}} )
 
-| Parameter |     | Type |     |     |     | Description |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| sizeTitles |     | Longint |     | ⬅️ |     | Size of font for titles |     |
-| sizeMessages |     | Longint |     | ⬅️ |     | Size of font for messages |     |
-| sizeButtons |     | Longint |     | ⬅️ |     | (Windows) Size of font for Stop buttons |     |
-
+| Parameter | Type |     | Description |
+| --- | --- | --- | --- |
+| sizeTitles | Longint | ⬅️ | Size of font for titles |
+| sizeMessages | Longint | ⬅️ | Size of font for messages |
+| sizeButtons | Longint | ⬅️ | (Windows) Size of font for Stop buttons |
 ## Description
 
 The **Progress SET FONT SIZES** method changes the font size used for the different text displayed in all the progress windows.

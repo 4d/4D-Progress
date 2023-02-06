@@ -2,14 +2,13 @@
 
 > Progress SET TITLE ( id ; title {; progress {; message {; foreground}}} )
 
-| Parameter |     | Type |     |     |     | Description |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-| title |     | Text |     | ⬅️ |     | Title of progress bar |     |
-| progress |     | Real |     | ⬅️ |     | Value of progress (\[0...1\] or -1) |     |
-| message |     | Text |     | ⬅️ |     | Message of progress bar |     |
-| foreground |     | Boolean |     | ⬅️ |     | Show progress bar in foreground |     |
-
+| Parameter | Type |     | Description |
+| --- | --- | --- | --- |
+| id  | Longint | ⬅️ | ID of progress bar |
+| title | Text | ⬅️ | Title of progress bar |
+| progress | Real | ⬅️ | Value of progress (\[0...1\] or -1) |
+| message | Text | ⬅️ | Message of progress bar |
+| foreground | Boolean | ⬅️ | Show progress bar in foreground |
 ## Description
 
 The **Progress SET TITLE** method sets the title of the progress bar along with the information displayed in the progress bar window.

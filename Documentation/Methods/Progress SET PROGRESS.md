@@ -2,13 +2,12 @@
 
 > Progress SET PROGRESS ( id ; progress {; message {; foreground}} )
 
-| Parameter |     | Type |     |     |     | Description |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-| progress |     | Real |     | ⬅️ |     | Value of progress (\[0...1\] or -1) |     |
-| message |     | Text |     | ⬅️ |     | Message of progress bar |     |
-| foreground |     | Boolean |     | ⬅️ |     | Show progress bar in foreground |     |
-
+| Parameter | Type |     | Description |
+| --- | --- | --- | --- |
+| id  | Longint | ⬅️ | ID of progress bar |
+| progress | Real | ⬅️ | Value of progress (\[0...1\] or -1) |
+| message | Text | ⬅️ | Message of progress bar |
+| foreground | Boolean | ⬅️ | Show progress bar in foreground |
 ## Description
 
 The **Progress SET PROGRESS** method modifies the value of the progress bar along with the information shown in the progress window. It is useful for updating a progress bar within a loop.

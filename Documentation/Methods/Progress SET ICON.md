@@ -2,12 +2,11 @@
 
 > Progress SET ICON ( id ; icon {; foreground} )
 
-| Parameter |     | Type |     |     |     | Description |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-| icon |     | Picture |     | ⬅️ |     | Picture to display as icon |     |
-| foreground |     | Boolean |     | ⬅️ |     | Show progress bar in foreground |     |
-
+| Parameter | Type |     | Description |
+| --- | --- | --- | --- |
+| id  | Longint | ⬅️ | ID of progress bar |
+| icon | Picture | ⬅️ | Picture to display as icon |
+| foreground | Boolean | ⬅️ | Show progress bar in foreground |
 ## Description
 
 The **Progress SET ICON** method modifies the icon displayed in the progress bar. By default, the following icons are displayed:

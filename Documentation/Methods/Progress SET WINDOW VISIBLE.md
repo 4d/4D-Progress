@@ -2,13 +2,12 @@
 
 > Progress SET WINDOW VISIBLE ( visible {; horPos ; vertPos {; foreground}} )
 
-| Parameter |     | Type |     |     |     | Description |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| visible |     | Boolean |     | ⬅️ |     | True = Show, False = Hide |     |
-| horPos |     | Longint |     | ⬅️ |     | Left coordinate of window  <br>-1 = No change |     |
-| vertPos |     | Longint |     | ⬅️ |     | Top coordinate of window  <br>-1 = No change |     |
-| foreground |     | Boolean |     | ⬅️ |     | Show progress bar in foreground |     |
-
+| Parameter | Type |     | Description |
+| --- | --- | --- | --- |
+| visible | Boolean | ⬅️ | True = Show, False = Hide |
+| horPos | Longint | ⬅️ | Left coordinate of window  <br>-1 = No change |
+| vertPos | Longint | ⬅️ | Top coordinate of window  <br>-1 = No change |
+| foreground | Boolean | ⬅️ | Show progress bar in foreground |
 ## Description
 
 The **Progress SET WINDOW VISIBLE** method manages the display of the progress bar window, if it exists.

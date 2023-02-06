@@ -2,11 +2,10 @@
 
 > Progress Stopped ( id ) -> Function result
 
-| Parameter |     | Type |     |     |     | Description |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| id  |     | Longint |     | ⬅️ |     | ID of progress bar |     |
-| Function result |     | Boolean |     | ➡️ |     | True = User clicked the Stop button |     |
-
+| Parameter | Type |     | Description |
+| --- | --- | --- | --- |
+| id  | Longint | ⬅️ | ID of progress bar |
+| Function result | Boolean | ➡️ | True = User clicked the Stop button |
 ## Description
 
 The **Progress Stopped** method returns True when a user clicks on the **Stop** button of the progress bar designated by the `id` parameter.
