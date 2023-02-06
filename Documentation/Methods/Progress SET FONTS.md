@@ -14,7 +14,7 @@ The **Progress SET FONTS** method changes the fonts used for the different text 
 
 In the `fontTitles`, `fontMessages` and `fontButtons` parameters, pass the names of the fonts to use. If you do not want to modify a font, pass an empty string ("") in the corresponding parameter.
 
-|### Example  
+### Example  
 
 We want to change the font only for messages:
 

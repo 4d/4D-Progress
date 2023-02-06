@@ -14,7 +14,7 @@ The **Progress SET FONT SIZES** method changes the font size used for the differ
 
 In the [sizeTitles](# "Size of font for titles"), [sizeMessages](# "Size of font for messages") and [sizeButtons](# "(Windows) Size of font for Stop buttons") parameters, pass the font sizes to use. If you do not want to modify a size, pass -1 in the corresponding parameter.
 
-|### Example 1  
+### Example 1  
 
 We want to change the size only for messages:
 
@@ -22,7 +22,7 @@ We want to change the size only for messages:
  Progress SET FONT SIZES(-1;13)
 ```
 
-|### Example 2  
+### Example 2  
 
 We want to change the size of titles and messages:
 

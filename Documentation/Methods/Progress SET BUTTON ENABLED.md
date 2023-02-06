@@ -19,4 +19,4 @@ You must manage the effect of clicking on this **Stop** button using the [Progre
 
 ## See also
 
-[Progress Get Button Enabled](Next%20page.md)
+[Progress Get Button Enabled](Progress%20Get%20Button%20Enabled.md)

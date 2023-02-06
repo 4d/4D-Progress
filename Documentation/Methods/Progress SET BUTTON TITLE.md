@@ -17,7 +17,7 @@ The **Progress SET BUTTON TITLE** method changes the title of the **Stop** butto
 
 By default, progress bars do not have **Stop** buttons. If you want a progress bar to have one, you must use the [Progress SET BUTTON ENABLED](Progress%20SET%20BUTTON%20ENABLED.md) method.
 
-|### Example  
+### Example  
 
 You want to use the title "Abort":
 

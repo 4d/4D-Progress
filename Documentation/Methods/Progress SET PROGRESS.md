@@ -21,7 +21,7 @@ In `message`, you pass additional text to display under the main title (Windows)
 
 Pass True in `foreground`when you want to force the progress window to the foreground of the application.
 
-|### Example  
+### Example  
 
 Updating of progress bar:  
 

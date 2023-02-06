@@ -14,7 +14,7 @@ If `id` designates the only progress bar displayed, the progress window is also 
 
 You can pass 0 in the `id` parameter in order to stop all the progress bars and close the progress window.
 
-|### Example  
+### Example  
 
 If the bar named "Copying folder 3" has the ID number 3:
 

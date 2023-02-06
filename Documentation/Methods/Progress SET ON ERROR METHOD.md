@@ -20,7 +20,7 @@ The [methodName](# "Name of error method") method is called with three parameter
 * $2 (Text): text of the error
 * $3 (Longint): unique ID of progress bar
 
-|### Example  
+### Example  
 
 Here is an example of a method called in the event of an error. This method is declared as "shared" in Design mode:
 
