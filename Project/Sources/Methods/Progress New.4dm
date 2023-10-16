@@ -4,8 +4,6 @@ C_BOOLEAN:C305($1)  //set to front (or not if not passed)
 C_LONGINT:C283($0)
 C_LONGINT:C283($N; $NextID)
 
-C_TEXT:C284($Path)
-
 Progress__Compiler
 
 C_PICTURE:C286($Image)
