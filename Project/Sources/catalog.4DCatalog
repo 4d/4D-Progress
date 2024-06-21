@@ -2,7 +2,7 @@
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
 <base name="4D Progress" uuid="68BD2462373848CCA1544E8228A86C23" collation_locale="fr">
 	<schema name="DEFAULT_SCHEMA"/>
-	<base_extra package_name="4D Progress" structure_file_name="4D Progress" data_file_path=":4D Progress.4DD" ppc_code_stamp="302" __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0">
+	<base_extra package_name="4D Progress" structure_file_name="4D Progress" data_file_path=":4D Progress.4DD" ppc_code_stamp="302">
 		<temp_folder folder_selector="data"/>
 		<journal_file journal_file_enabled="false"/>
 	</base_extra>
