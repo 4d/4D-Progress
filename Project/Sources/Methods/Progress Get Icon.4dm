@@ -1,16 +1,11 @@
 //%attributes = {"invisible":true,"shared":true}
-C_LONGINT:C283($1)  //Reference of Progress
-C_PICTURE:C286($0)
+#DECLARE($ProgressID : Integer) : Picture
 
-C_PICTURE:C286($Icon)
-C_LONGINT:C283($p)
-
-C_LONGINT:C283($ErrorID)  //Error code
-C_LONGINT:C283($ProgressID)  // progress code
+var $Icon : Picture
+var $p : Integer
+var $ErrorID : Integer
 
 If (Count parameters:C259>=1)
-	
-	$ProgressID:=$1
 	
 	Progress__Semaphore_ON  //*************
 	
@@ -28,7 +23,7 @@ End if
 
 Progress__ManageMethodsError($ErrorID; $ProgressID)
 
-$0:=$Icon
+return $Icon
 
 
 

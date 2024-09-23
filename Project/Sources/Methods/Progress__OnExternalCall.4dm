@@ -1,24 +1,18 @@
 //%attributes = {"invisible":true}
+#DECLARE($SubformWidth : Integer; $SubformHeight : Integer)
 
-C_LONGINT:C283($1; $2)
+var $x1; $y1; $x2; $y2 : Integer
+var $FormHeight : Integer
 
-C_LONGINT:C283($x1; $y1; $x2; $y2)
-C_LONGINT:C283($SubformWidth; $SubformHeight)
-C_LONGINT:C283($FormHeight)
+var $i; $n; $p : Integer
+var $ID : Integer
+var $Target : Integer
 
-C_LONGINT:C283($i; $n; $p)
-C_LONGINT:C283($ID)
-C_LONGINT:C283($Target)
+var $NilPtr : Pointer
+var $Ptr : Pointer
 
-C_POINTER:C301($NilPtr)
-C_POINTER:C301($Ptr)
-
-C_TEXT:C284($SubFormName)
-C_LONGINT:C283($VerticalCenter)
-
-
-$SubformWidth:=$1
-$SubformHeight:=$2
+var $SubFormName : Text
+var $VerticalCenter : Integer
 
 Progress__Semaphore_ON  //***************************************
 

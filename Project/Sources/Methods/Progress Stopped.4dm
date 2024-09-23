@@ -1,19 +1,16 @@
 //%attributes = {"invisible":true,"shared":true}
-C_LONGINT:C283($1)  //Reference of Progress to stop
-C_BOOLEAN:C305($0)
+#DECLARE($ProgressID : Integer) : Boolean
 
-C_LONGINT:C283($ErrorID)  //Error code
-C_LONGINT:C283($ProgressID)  // progress code
+var $ErrorID : Integer  //Error code
 
-C_LONGINT:C283($i; $p; $n)
-C_TEXT:C284($Error)
-C_BOOLEAN:C305($Canceled)
+var $p : Integer
+var $Error : Text
+var $Canceled : Boolean
 
 $Error:=""
 
 If (Count parameters:C259>=1)
 	
-	$ProgressID:=$1
 	
 	Progress__Semaphore_ON  //*************
 	
@@ -32,4 +29,4 @@ End if
 
 Progress__ManageMethodsError($ErrorID; $ProgressID)
 
-$0:=$Canceled
+return $Canceled

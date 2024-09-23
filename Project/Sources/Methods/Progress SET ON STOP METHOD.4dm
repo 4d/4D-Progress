@@ -1,30 +1,16 @@
 //%attributes = {"invisible":true,"shared":true}
-C_LONGINT:C283($1)  //Reference of Progress
-C_TEXT:C284($2)  //callback method name
-C_BOOLEAN:C305($3)  //If passed then the progress window becomes the frontmost window
+#DECLARE($ProgressID : Integer; $OnStopMethodName : Text; $FrontMost : Boolean)
 
-C_LONGINT:C283($ErrorID)  //Error code
-C_LONGINT:C283($ProgressID)  // progress code
+var $ErrorID : Integer
+var $p : Integer
 
-C_LONGINT:C283($p; $CountParam)
-
-C_TEXT:C284($OnStopMethodName)
-C_BOOLEAN:C305($FrontMost)
-
-$CountParam:=Count parameters:C259
-If ($CountParam>=2)
-	
-	$ProgressID:=$1
-	$OnStopMethodName:=$2
-	If ($CountParam>=3)
-		$FrontMost:=$3
-	End if 
+If (Count parameters:C259>=2)
 	
 	Progress__Semaphore_ON  //*************
 	
 	$p:=Find in array:C230(<>_ProgressID; $ProgressID)
 	If ($p>0)
-		<>_ProgressOnStop{$p}:=$2
+		<>_ProgressOnStop{$p}:=$OnStopMethodName
 		<>_ProgressUpdated{$p}:=True:C214
 	Else 
 		$ErrorID:=1  //bad ID

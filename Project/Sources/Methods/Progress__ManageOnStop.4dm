@@ -3,12 +3,11 @@
 //the name of the callback method is set inside the form objet "CallBack" inside
 //the subform from where this method is called; So it can be acessed and used.
 
-C_POINTER:C301($PtrCallback; $PtrProgressID)
-C_TEXT:C284($CallbackMethod)
-C_LONGINT:C283($ProgressID)
-C_LONGINT:C283($ps)
-C_LONGINT:C283($p)
-
+var $PtrCallback; $PtrProgressID : Pointer
+var $CallbackMethod : Text
+var $ProgressID : Integer
+var $ps : Integer
+var $p : Integer
 
 $PtrCallback:=OBJECT Get pointer:C1124(Object named:K67:5; "CallBack")
 If (Not:C34(Is nil pointer:C315($PtrCallback)))  // this should neve happend

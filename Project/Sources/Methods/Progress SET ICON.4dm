@@ -1,28 +1,10 @@
 //%attributes = {"invisible":true,"shared":true}
-C_LONGINT:C283($1)  // Reference of Progress
-C_PICTURE:C286($2)  // icon
-C_BOOLEAN:C305($3)  // forces foreground window if passed
+#DECLARE($ProgressID : Integer; $Icon : Picture; $FrontMost : Boolean)
 
-C_LONGINT:C283($ErrorID)  //Error code
-C_LONGINT:C283($ProgressID)  // progress code
+var $ErrorID : Integer
+var $p : Integer
 
-C_LONGINT:C283($p; $CountParam)
-C_TEXT:C284($Error)
-
-C_TEXT:C284($Title)
-C_REAL:C285($Progress)
-C_TEXT:C284($Message)
-C_PICTURE:C286($Icon)
-C_BOOLEAN:C305($FrontMost)
-
-$CountParam:=Count parameters:C259
-If ($CountParam>=2)
-	
-	$ProgressID:=$1
-	$Icon:=$2
-	If (Count parameters:C259>=3)
-		$FrontMost:=$3
-	End if 
+If (Count parameters:C259>=2)
 	
 	Progress__Semaphore_ON  //*************
 	

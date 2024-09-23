@@ -1,17 +1,11 @@
 //%attributes = {"invisible":true,"shared":true}
-C_LONGINT:C283($1)  //Reference of Progress
-C_TEXT:C284($0)
+#DECLARE($ProgressID : Integer) : Text
 
-C_TEXT:C284($OnStopMethod)
-
-C_LONGINT:C283($ErrorID)  //Error code
-C_LONGINT:C283($ProgressID)
-
-C_LONGINT:C283($p)
+var $OnStopMethod : Text
+var $ErrorID : Integer
+var $p : Integer
 
 If (Count parameters:C259>=1)
-	
-	$ProgressID:=$1
 	
 	Progress__Semaphore_ON  //*************
 	
@@ -30,7 +24,7 @@ End if
 
 Progress__ManageMethodsError($ErrorID; $ProgressID)
 
-$0:=$OnStopMethod
+return $OnStopMethod
 
 
 

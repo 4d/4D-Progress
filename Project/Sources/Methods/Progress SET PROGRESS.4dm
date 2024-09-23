@@ -1,32 +1,12 @@
 //%attributes = {"invisible":true,"shared":true}
-C_LONGINT:C283($1)  //Reference of Progress
+#DECLARE($ProgressID : Integer; $Progress : Real; $Message : Text; $FrontMost : Boolean)
 
-C_REAL:C285($2)
-C_TEXT:C284($3)
-C_BOOLEAN:C305($4)  //If passed then the progress window becomes the frontmost window
-
-C_LONGINT:C283($ErrorID)  //Error code
-C_LONGINT:C283($ProgressID)  // progress code
-
-C_LONGINT:C283($p; $CountParam)
-
-C_TEXT:C284($Title)
-C_REAL:C285($Progress)
-C_TEXT:C284($Message)
-C_PICTURE:C286($Icon)
-C_BOOLEAN:C305($FrontMost)
+var $ErrorID : Integer
+var $p : Integer
+var $CountParam : Integer
 
 $CountParam:=Count parameters:C259
 If ($CountParam>=2)
-	
-	$ProgressID:=$1
-	$Progress:=$2
-	If (Count parameters:C259>=3)
-		$Message:=$3
-		If (Count parameters:C259>=4)
-			$FrontMost:=$4
-		End if 
-	End if 
 	
 	Progress__Semaphore_ON  //*************
 	

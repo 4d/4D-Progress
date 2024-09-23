@@ -25,5 +25,5 @@ If (Not:C34(<>ProgressInited))
 	
 End if 
 
-C_LONGINT:C283(<>ErrorRange)
+var <>ErrorRange : Integer
 <>ErrorRange:=6510
