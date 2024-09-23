@@ -1,13 +1,12 @@
 //%attributes = {"invisible":true,"shared":true}
-C_BOOLEAN:C305($1)  //set to front (or not if not passed)
+#DECLARE() : Integer
 
-C_LONGINT:C283($0)
-C_LONGINT:C283($N; $NextID)
+var $N; $NextID : Integer
 
 Progress__Compiler
 
-C_PICTURE:C286($Image)
-C_TEXT:C284($Path; $Sep)
+var $Image : Picture
+var $Path; $Sep : Text
 
 Progress__Semaphore_ON  //*************
 
@@ -57,6 +56,6 @@ If (Count parameters:C259>=1)
 	BRING TO FRONT:C326(<>PS_Progress)
 End if 
 
-$0:=$NextID
+return $NextID
 
 

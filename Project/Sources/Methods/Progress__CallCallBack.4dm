@@ -1,14 +1,7 @@
 //%attributes = {"invisible":true}
-C_TEXT:C284($1)
-C_LONGINT:C283($2)
+#DECLARE($CallbackMethod : Text; $ProgressID : Integer)
 
-C_TEXT:C284($CallbackMethod)
-C_LONGINT:C283($ProgressID)
-
-C_TEXT:C284($Alert)
-
-$CallbackMethod:=$1
-$ProgressID:=$2
+var $Alert : Text
 
 <>ProgressError:=0
 ON ERR CALL:C155("Progress__TrapError")

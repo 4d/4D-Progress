@@ -1,14 +1,8 @@
 //%attributes = {"invisible":true}
-C_LONGINT:C283($1)  //Error code
-C_LONGINT:C283($2)  // Progress ID
+#DECLARE($ErrorID : Integer; $ProgressID : Integer)
 
-C_LONGINT:C283($ErrorID)  //Error code
-C_LONGINT:C283($ProgressID)  // progress code
+var $ErrorText : Text  // error text
 
-C_TEXT:C284($ErrorText)  // error text
-
-$ErrorID:=$1
-$ProgressID:=$2
 
 If ($ErrorID#0)
 	

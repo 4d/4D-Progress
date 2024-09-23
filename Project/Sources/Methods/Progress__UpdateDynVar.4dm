@@ -1,29 +1,25 @@
 //%attributes = {"invisible":true}
+#DECLARE($ProgressID : Integer)
 
-C_LONGINT:C283($1)
-C_LONGINT:C283($ProgressID)
+var $x1; $y1; $x2; $y2 : Integer
+var $MemoX : Integer
+var $p; $n : Integer
+var $BestWidth; $BestHeight : Integer
 
-C_LONGINT:C283($x1; $y1; $x2; $y2)
-C_LONGINT:C283($MemoX)
-C_LONGINT:C283($p; $n)
-C_LONGINT:C283($BestWidth; $BestHeight)
+var $Sep; $Path; $Limit : Text
 
-C_TEXT:C284($Sep; $Path; $Limit)
+var $ptr : Pointer
+var $ptrProgress : Pointer
+var $ptrThermo : Pointer
 
-C_POINTER:C301($ptr)
-C_POINTER:C301($ptrProgress)
-C_POINTER:C301($ptrThermo)
+var $CurrentProgress; $NewProgress : Real
 
-C_REAL:C285($CurrentProgress; $NewProgress)
+var $PtrCancelAllow : Pointer
+var $ptrCallback : Pointer
 
-C_POINTER:C301($PtrCancelAllow)
-C_POINTER:C301($ptrCallback)
-
-C_LONGINT:C283($CurrentCancelAllow; $NewCancelAllow)
-C_TEXT:C284($CurrentCallback; $NewCallback)
-C_TEXT:C284($CurrentCancelText; $NewCancelText)
-
-$ProgressID:=$1
+var $CurrentCancelAllow; $NewCancelAllow : Integer
+var $CurrentCallback; $NewCallback : Text
+var $CurrentCancelText; $NewCancelText : Text
 
 $n:=Size of array:C274(<>_ProgressID)  // number of progress bars
 $p:=Find in array:C230(<>_ProgressID; $ProgressID)  // position of the concern progress bar

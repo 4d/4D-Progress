@@ -1,9 +1,9 @@
 //%attributes = {"invisible":true,"shared":true}
-C_TEXT:C284($1)  //callback method name
-C_TEXT:C284($Error)
+#DECLARE($callBackMethod : Text)
+var $Error : Text
 
 If (Count parameters:C259>=1)
-	<>OnErrorMethod:=$1
+	<>OnErrorMethod:=$callBackMethod
 Else 
 	$Error:=Get localized string:C991("IncorrectNumberOfParameters")
 End if 

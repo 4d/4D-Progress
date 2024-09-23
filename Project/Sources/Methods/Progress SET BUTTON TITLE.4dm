@@ -1,23 +1,10 @@
 //%attributes = {"invisible":true,"shared":true}
-C_LONGINT:C283($1)  //Reference of Progress
-C_TEXT:C284($2)  // mandatory (title)
-C_BOOLEAN:C305($3)  //If passed then the progress window becomes the foreground window
+#DECLARE($ProgressID : Integer; $CancelButtonText : Text; $FrontMost : Boolean)
 
-C_LONGINT:C283($ProgressID)  // progress code
-C_TEXT:C284($CancelButtonText)
-C_BOOLEAN:C305($FrontMost)
+var $ErrorID : Integer
+var $p : Integer
 
-C_LONGINT:C283($ErrorID)  //Error code
-C_LONGINT:C283($p; $CountParam)
-
-$CountParam:=Count parameters:C259
-If ($CountParam>=2)
-	
-	$ProgressID:=$1
-	$CancelButtonText:=$2
-	If ($CountParam>=3)
-		$FrontMost:=$3
-	End if 
+If (Count parameters:C259>=2)
 	
 	Progress__Semaphore_ON  //*************
 	

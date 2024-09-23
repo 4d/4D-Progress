@@ -1,21 +1,17 @@
 //%attributes = {"invisible":true,"shared":true}
+#DECLARE($ProgressID : Integer)
 // should be called by host before leaving
 
-C_LONGINT:C283($1)  //Reference of Progress to stop
+var $ErrorID : Integer
 
-C_LONGINT:C283($ErrorID)  //Error code
-C_LONGINT:C283($ProgressID)  // progress code
-
-C_LONGINT:C283($i; $p; $n)
-C_TEXT:C284($Error)
+var $i; $p; $n : Integer
+var $Error : Text
 
 $Error:=""
 
 If (Count parameters:C259>=1)
 	
 	Progress__Semaphore_ON  //*************
-	
-	$ProgressID:=$1
 	
 	If ($ProgressID=0)
 		

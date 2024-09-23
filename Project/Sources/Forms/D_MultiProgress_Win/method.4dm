@@ -1,5 +1,5 @@
-C_POINTER:C301($NilPtr)
-C_LONGINT:C283($SubformWidth; $SubformHeight)
+// var $NilPtr: Pointer
+var $SubformWidth; $SubformHeight : Integer
 
 Case of 
 	: (Form event code:C388=On Load:K2:1)
