@@ -5,12 +5,8 @@ var $ErrorID : Integer  //Error code
 
 var $p : Integer
 var $Error : Text
-var $Canceled : Boolean
-
 $Error:=""
-
 If (Count parameters:C259>=1)
-	
 	
 	Progress__Semaphore_ON  //*************
 	
@@ -20,7 +16,6 @@ If (Count parameters:C259>=1)
 	Else 
 		$Canceled:=True:C214
 	End if 
-	
 	Progress__Semaphore_OFF  //*************
 	
 Else 
