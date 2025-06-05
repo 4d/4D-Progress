@@ -10,11 +10,18 @@ var $Error : Text
 var $ErrorID : Integer
 var $ProgressID : Integer  // progress code ????
 
-$Show:=True:C214
-$WinPosX:=-1
-$WinPosY:=-1
-$ChangePosition:=False:C215
-$FrontMost:=False:C215
+// Set default values only if parameters are not provided
+If (Count parameters:C259=0)
+	$Show:=True
+End if 
+
+If (Count parameters:C259<=1)
+	$WinPosX:=-1
+End if 
+
+If (Count parameters:C259<=2)
+	$WinPosY:=-1
+End if 
 
 If (Count parameters:C259=2)
 	//only  X without Y !
