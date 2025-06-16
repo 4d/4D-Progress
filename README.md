@@ -4,31 +4,32 @@
 
 Each progress bar is assigned an ID that is generated automatically by the Progress New method. This ID is used by all the project methods of the component to manage the properties and values in progress dialog boxes.
 
+![4D Progress Component](https://doc.4d.com/4Dv20R9/picture/924605/pict924605.en.png)
+
+[Online documentation](https://doc.4d.com/4Dv20R9/4D/20-R9/Progress-bars.201-7545462.en.html)
+
 ## Commands
 
-- [Progress Get Button Enabled](Documentation/Methods/Progress Get Button Enabled.md)
-- [Progress Get Button Title](Documentation/Methods/Progress Get Button Title.md)
-- [Progress Get Icon](Documentation/Methods/Progress Get Icon.md)
-- [Progress Get Message](Documentation/Methods/Progress Get Message.md)
-- [Progress Get On Error Method](Documentation/Methods/Progress Get Error Method.md)
-- [Progress Get On Stop Method](Documentation/Methods/Progress Get Stop Method.md)
-- [Progress Get Progress](Documentation/Methods/Progress Get Progress.md)
-- [Progress Get Title](Documentation/Methods/Progress Get Title.md)
-- [Progress New](Documentation/Methods/Progress New.md)
-- [Progress QUIT](Documentation/Methods/Progress QUIT.md)
-- [Progress SET BUTTON ENABLED](Documentation/Methods/Progress SET BUTTON ENABLED.md)
-- [Progress SET BUTTON TITLE](Documentation/Methods/Progress SET BUTTON TITLE.md)
-- [Progress SET FONT SIZES](Documentation/Methods/Progress SET FONT SIZES.md)
-- [Progress SET FONTS](Documentation/Methods/Progress SET FONTS.md)
-- [Progress SET ICON](Documentation/Methods/Progress SET ICON.md)
-- [Progress SET MESSAGE](Documentation/Methods/Progress SET MESSAGE.md)
-- [Progress SET ON ERROR METHOD](Documentation/Methods/Progress SET ON ERROR METHOD.md)
-- [Progress SET ON STOP METHOD](Documentation/Methods/Progress SET ON STOP METHOD.md)
-- [Progress SET PROGRESS](Documentation/Methods/Progress SET PROGRESS.md)
-- [Progress SET TITLE](Documentation/Methods/Progress SET TITLE.md)
-- [Progress SET WINDOW VISIBLE](Documentation/Methods/Progress SET WINDOW VISIBLE.md)
-- [Progress Stopped](Documentation/Methods/Progress Stopped.md)
+- [Progress Get Button Enabled](Documentation/Methods/Progress%20Get%20Button%20Enabled.md)
+- [Progress Get Button Title](Documentation/Methods/Progress%20Get%20Button%20Title.md)
+- [Progress Get Icon](Documentation/Methods/Progress%20Get%20Icon.md)
+- [Progress Get Message](Documentation/Methods/Progress%20Get%20Message.md)
+- [Progress Get On Error Method](Documentation/Methods/Progress%20Get%20Error%20Method.md)
+- [Progress Get On Stop Method](Documentation/Methods/Progress%20Get%20Stop%20Method.md)
+- [Progress Get Progress](Documentation/Methods/Progress%20Get%20Progress.md)
+- [Progress Get Title](Documentation/Methods/Progress%20Get%20Title.md)
+- [Progress New](Documentation/Methods/Progress%20New.md)
+- [Progress QUIT](Documentation/Methods/Progress%20QUIT.md)
+- [Progress SET BUTTON ENABLED](Documentation/Methods/Progress%20SET%20BUTTON%20ENABLED.md)
+- [Progress SET BUTTON TITLE](Documentation/Methods/Progress%20SET%20BUTTON%20TITLE.md)
+- [Progress SET FONT SIZES](Documentation/Methods/Progress%20SET%20FONT%20SIZES.md)
+- [Progress SET FONTS](Documentation/Methods/Progress%20SET%20FONTS.md)
+- [Progress SET ICON](Documentation/Methods/Progress%20SET%20ICON.md)
+- [Progress SET MESSAGE](Documentation/Methods/Progress%20SET%20MESSAGE.md)
+- [Progress SET ON ERROR METHOD](Documentation/Methods/Progress%20SET%20ON%20ERROR%20METHOD.md)
+- [Progress SET ON STOP METHOD](Documentation/Methods/Progress%20SET%20ON%20STOP%20METHOD.md)
+- [Progress SET PROGRESS](Documentation/Methods/Progress%20SET%20PROGRESS.md)
+- [Progress SET TITLE](Documentation/Methods/Progress%20SET%20TITLE.md)
+- [Progress SET WINDOW VISIBLE](Documentation/Methods/Progress%20SET%20WINDOW%20VISIBLE.md)
+- [Progress Stopped](Documentation/Methods/Progress%20Stopped.md)
 
-## How to use
-
-You will find all the information on the [4D blog](https://blog.4d.com/news-flash-4d-components-available-on-github/).
