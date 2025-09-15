@@ -1,14 +1,14 @@
 # 4d-progress
 
-4D includes a built-in component named 4D Progress. This component lets you open one or more progress bars in the same window.
+This component lets you open one or more progress bars in the same window.
 
-Each progress bar is assigned an ID that is generated automatically by the Progress New method. This ID is used by all the project methods of the component to manage the properties and values in progress dialog boxes.
+Each progress bar is assigned an ID that is generated automatically by the [Progress New](Documentation/Methods/Progress%20New.md) method. This ID is used by all the project methods of the component to manage the properties and values in progress dialog boxes.
 
-![4D Progress Component](https://doc.4d.com/4Dv20R9/picture/924605/pict924605.en.png)
+![4D Progress Component](https://doc.4d.com/4Dv20/picture/924605/pict924605.en.png)
 
-[Online documentation](https://doc.4d.com/4Dv20R9/4D/20-R9/Progress-bars.201-7545462.en.html)
+[Online documentation]([https://doc.4d.com/4Dv20R9/4D/20-R9/Progress-bars.201-7545462.en.html](https://doc.4d.com/4Dv20/4D/20/4D-Progress.100-6341911.fe.html))
 
-## Commands
+## Available commands
 
 - [Progress Get Button Enabled](Documentation/Methods/Progress%20Get%20Button%20Enabled.md)
 - [Progress Get Button Title](Documentation/Methods/Progress%20Get%20Button%20Title.md)
