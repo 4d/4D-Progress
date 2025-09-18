@@ -6,7 +6,7 @@ Each progress bar is assigned an ID that is generated automatically by the [Prog
 
 ![4D Progress Component](https://doc.4d.com/4Dv20/picture/924605/pict924605.en.png)
 
-[Online documentation]([https://doc.4d.com/4Dv20R9/4D/20-R9/Progress-bars.201-7545462.en.html](https://doc.4d.com/4Dv20/4D/20/4D-Progress.100-6341911.fe.html))
+[Online documentation](https://doc.4d.com/4Dv20/4D/20/4D-Progress.100-6341911.en.html)
 
 ## Available commands
 
