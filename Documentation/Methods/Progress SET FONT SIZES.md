@@ -30,7 +30,7 @@ We want to change the size of titles and messages:
  Progress SET FONT SIZES(13;12)
 ```
 
-![](https://doc.4d.com/4Dv19/picture/925231/pict925231.en.png)
+![](../Assets/pict925231.en.png)
 
 ## See also
 

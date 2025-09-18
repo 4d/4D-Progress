@@ -32,7 +32,7 @@ Creating a simple progress bar window:
  Progress SET TITLE($P;"Copying folder";-1;"Counting files")
 ```
 
-![](https://doc.4d.com/4Dv19/picture/926902/pict926902.en.png)
+![](../Assets/pict926902.en.png)
 
 ## See also
 

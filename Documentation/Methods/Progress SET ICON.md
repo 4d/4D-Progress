@@ -11,7 +11,7 @@
 
 The **Progress SET ICON** method modifies the icon displayed in the progress bar. By default, the following icons are displayed:
 
-![](https://doc.4d.com/4Dv19/picture/925372/pict925372.en.png)
+![](../Assets/pict925372.en.png)
 
 In `id`, you pass the unique ID of the progress bar, returned by the [Progress New](Progress%20New.md) method.
 
@@ -26,7 +26,7 @@ Pass True in `foreground`when you want to force the progress window to the foreg
 
 Examples of custom icons:
 
-![](https://doc.4d.com/4Dv19/picture/925400/pict925400.en.png)
+![](../Assets/pict925400.en.png)
 
 ## See also
 

@@ -14,4 +14,4 @@ The first time this method is called, a local process is created and a new cente
 * contains an undefined progress bar
 * does not have a message.
 
-![](https://doc.4d.com/4Dv19/picture/924605/pict924605.en.png)
+![](../Assets/pict924605.png)

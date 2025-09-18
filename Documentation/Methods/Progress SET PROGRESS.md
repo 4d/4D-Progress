@@ -37,7 +37,7 @@ Updating of progress bar:
  PROGRESS QUIT($P)
 ```
 
-![](https://doc.4d.com/4Dv19/picture/926830/pict926830.en.png)
+![](../Assets/pict926830.en.png)
 
 ## See also
 
