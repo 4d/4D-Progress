@@ -1,4 +1,4 @@
-# 4d-progress
+# 4D Progress
 
 This component lets you open one or more progress bars in the same window.
 
