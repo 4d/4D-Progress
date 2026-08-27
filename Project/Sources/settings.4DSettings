@@ -30,7 +30,7 @@
 					<server allow_requests="false"/>                                                </webservices>                                                                                                                                      </remote>                                                    </web>
 		<compiler>
 			<typage default_for_button="1" default_for_numeric="1"/>
-			<options AMD64_support="true" compilation_path="3" fat_binary="true"/>                                                    </compiler>
+			<options AMD64_support="true" compilation_path="3" fat_binary="true" syntax_file="true"/>                                                    </compiler>
 		<sql>
 			<access data_read_only="0" data_read_write="0" full="1"/>                            </sql>
 		<server>
