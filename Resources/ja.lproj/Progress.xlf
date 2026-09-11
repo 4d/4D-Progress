@@ -27,7 +27,7 @@
             </trans-unit>
          </group>
          <group resname="Groupe 2">
-            <trans-unit id="1" resname="BtnStop">
+            <trans-unit id="4" resname="BtnStop">
                <source>Stop</source>
                <target>停止</target>
             </trans-unit>
