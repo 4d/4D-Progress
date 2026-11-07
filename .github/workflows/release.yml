@@ -10,10 +10,10 @@ jobs:
       GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
     steps:
       - name: ⬇️ Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: ⬇️ Checkout postBuild
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           repository: 4d/${{secrets.POST_BUILD_REPO}}
           token: ${{secrets.PAT_TOKEN}}
@@ -36,7 +36,7 @@ jobs:
           LOGIN_KEYCHAIN_PASSWORD: "${{ secrets.KEYCHAIN }}"
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: "${{ github.event.repository.name }}.zip"
           path: "build/${{ github.event.repository.name }}.zip"
@@ -52,7 +52,7 @@ jobs:
       contents: write # for release deletion
     steps:
       - name: 📄 Checkout repository
-        uses: "actions/checkout@v5"
+        uses: "actions/checkout@v7"
         with:
           fetch-depth: 0
       - name: Remove release
@@ -72,11 +72,11 @@ jobs:
       contents: write # for asset upload
     steps:
       - name: 📄 Checkout repository
-        uses: "actions/checkout@v5"
+        uses: "actions/checkout@v7"
         with:
           fetch-depth: 0
       - name: Download packages
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: "${{ github.event.repository.name }}.zip"
           path: artifact
